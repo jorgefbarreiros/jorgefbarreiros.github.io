@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jorge Fernández Barreiros — Home</title>
+  <meta name="description" content="Web personal de Jorge Fernández Barreiros: formación, experiencia y trabajo en economía." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Jorge Fernández Barreiros</a>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="research.html">Research</a>
+        <a class="nav-link" href="mailto:jorgefbarreiros@gmail.com">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Economía · Macroeconomía · Comercio · Series temporales</p>
+          <h1>Hola, soy <span class="accent">Jorge Fernández Barreiros</span>.</h1>
+          <p class="lead">
+            Soy Research Assistant en el Banco de España (Departamento de Política Monetaria y Economía Internacional),
+            con formación en Economía por la Universidad Carlos III de Madrid.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn primary" href="research.html">Ver Research</a>
+            <a class="btn" href="https://github.com/jorgefbarreiros/codes" target="_blank" rel="noreferrer">Códigos en GitHub</a>
+          </div>
+
+          <ul class="meta">
+            <li>📍 Madrid, España</li>
+            <li>✉️ <a href="mailto:jorgefbarreiros@gmail.com">jorgefbarreiros@gmail.com</a></li>
+          </ul>
+        </div>
+
+        <aside class="card">
+          <h2>En una frase</h2>
+          <p>
+            Apoyo investigación aplicada en modelos cuantitativos (trade/DSGE) y análisis empírico con datos.
+          </p>
+          <hr />
+          <h3>Skills</h3>
+          <div class="tags">
+            <span class="tag">LaTeX</span>
+            <span class="tag">Stata</span>
+            <span class="tag">R</span>
+            <span class="tag">Gretl</span>
+            <span class="tag">Excel</span>
+            <span class="tag">MATLAB</span>
+            <span class="tag">EViews</span>
+            <span class="tag">Python (básico)</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Experiencia</h2>
+
+        <div class="timeline">
+          <article class="item">
+            <div class="item-head">
+              <h3>Banco de España</h3>
+              <span class="pill">2025 – 2026</span>
+            </div>
+            <p class="muted">Full-time Research Assistant · Dept. de Política Monetaria y Economía Internacional</p>
+            <ul>
+              <li>Asistencia en investigación con modelos cuantitativos de comercio.</li>
+              <li>Trabajo con modelos DSGE y análisis de series temporales.</li>
+            </ul>
+          </article>
+
+          <article class="item">
+            <div class="item-head">
+              <h3>VisualEconomik</h3>
+              <span class="pill">2022 – 2023</span>
+            </div>
+            <p class="muted">Part-time Collaborator</p>
+            <ul>
+              <li>Recogida y limpieza de datos.</li>
+              <li>Revisión de literatura y análisis cuantitativo.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="container">
+        <h2>Formación</h2>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>MSc in Economics · Universidad Carlos III de Madrid</h3>
+            <p class="muted">2024 – 2025 · Class Representative</p>
+          </div>
+
+          <div class="card">
+            <h3>BSc in Economics · Universidad Carlos III de Madrid</h3>
+            <p class="muted">2021 – 2024</p>
+          </div>
+
+          <div class="card">
+            <h3>Doble Grado Derecho + ADE (incompleto) · UC3M</h3>
+            <p class="muted">2019 – 2021</p>
+          </div>
+
+          <div class="card">
+            <h3>Proyecto</h3>
+            <p class="muted">Euronomics con Luis Garicano (MEP) · Bruselas · 2022</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Idiomas</h2>
+        <div class="tags">
+          <span class="tag">Español (nativo)</span>
+          <span class="tag">Gallego (nativo)</span>
+          <span class="tag">Inglés (Proficient · CAE)</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Jorge Fernández Barreiros</span>
+      <span class="sep">·</span>
+      <a href="research.html">Research</a>
+      <span class="sep">·</span>
+      <a href="https://github.com/jorgefbarreiros/codes" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
