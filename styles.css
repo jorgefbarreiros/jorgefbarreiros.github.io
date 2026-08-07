@@ -49,6 +49,13 @@ h3{font-size:1.18rem;margin:0 0 8px}
 .meta{color:var(--muted);font-size:.9rem;margin:10px 0 20px}
 .abstract{margin:0 0 22px;max-width:840px}
 .text-links{margin-top:20px}
+.publication-list{max-width:840px}
+.publication-item{padding:0 0 34px}
+.publication-item+.publication-item{padding-top:34px;border-top:1px solid var(--line)}
+.publication-item:last-child{padding-bottom:0}
+.publication-item p:not(.meta):not(.section-label){max-width:840px}
+.publication-item-page{padding-bottom:0}
+.publication-page{max-width:840px}
 
 .page-hero{background:var(--pale);border-bottom:1px solid var(--line)}
 .page-hero-inner{padding:54px 0 46px}
