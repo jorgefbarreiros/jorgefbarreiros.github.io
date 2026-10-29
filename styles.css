@@ -34,9 +34,9 @@ h3{font-size:1.25rem;margin:0 0 10px}
 .nav a.active{font-weight:600}
 
 /* A personal introduction, with the professional material on its own pages. */
-.introduction{display:grid;grid-template-columns:260px minmax(0,1fr);gap:86px;align-items:center;padding:76px 0 80px}
+.introduction{display:grid;grid-template-columns:300px minmax(0,1fr);gap:46px;align-items:center;padding:76px 0 80px}
 .portrait-panel{align-self:start;margin-top:9px}
-.portrait{width:260px;height:390px;object-fit:cover;object-position:center 30%;border-radius:3px}
+.portrait{width:300px;height:auto;border-radius:3px}
 .welcome{margin:0 0 10px;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-size:1.1rem;font-style:italic}
 .intro-copy{max-width:660px;font-size:1.06rem}
 .intro-copy h1{margin-bottom:23px;font-size:clamp(2.6rem,4.5vw,3.6rem)}
@@ -99,7 +99,7 @@ h3{font-size:1.25rem;margin:0 0 10px}
 
 @media(max-width:1000px){
   .introduction,.hometown-intro{grid-template-columns:230px minmax(0,1fr);gap:52px}
-  .portrait{width:230px;height:365px}
+  .portrait{width:230px}
   .intro-copy h1{font-size:3rem}
 }
 @media(max-width:760px){
@@ -110,7 +110,7 @@ h3{font-size:1.25rem;margin:0 0 10px}
   .nav a{font-size:.92rem}
   .introduction{grid-template-columns:1fr;gap:32px;padding:38px 0 46px}
   .portrait-panel{margin:0}
-  .portrait{width:180px;height:270px}
+  .portrait{width:240px}
   .intro-copy{max-width:none;font-size:1rem}
   .intro-copy h1{font-size:2.75rem;margin-bottom:20px}
   .intro-lead{font-size:1.1rem}
