@@ -48,7 +48,7 @@ h3{font-size:1.25rem;margin:0 0 10px}
 .hometown-intro{display:grid;grid-template-columns:260px minmax(0,1fr);gap:86px;align-items:start;margin-bottom:32px}
 .hometown-intro h2{font-size:1.75rem;max-width:230px;margin:0}
 .hometown-intro p{max-width:590px;margin:0;color:var(--muted)}
-.home-gallery{display:grid;grid-template-columns:1.647fr 1fr;gap:26px;align-items:start}
+.home-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;align-items:start}
 .photo-link{display:block}
 .home-gallery img{width:100%;border-radius:2px}
 .home-gallery figcaption{display:flex;flex-direction:column;margin-top:14px;line-height:1.5}
@@ -117,7 +117,7 @@ h3{font-size:1.25rem;margin:0 0 10px}
   .hometown{padding-top:34px}
   .hometown-intro{grid-template-columns:1fr;gap:16px;margin-bottom:26px}
   .hometown-intro h2{max-width:none}
-  .home-gallery{grid-template-columns:1fr;gap:30px}
+  .home-gallery{grid-template-columns:1fr;gap:30px;max-width:300px}
   .home-gallery figcaption{margin-top:10px}
   .footer-inner{flex-direction:column;gap:16px}
   .home-footer .footer-inner{align-items:flex-start;gap:6px}
